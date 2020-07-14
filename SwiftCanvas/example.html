@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Example</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <button onclick=button1Event() style="height: 40px;margin-right: 20px;">获取原生返回值</button>
+        <button onclick=button2Event() style="height: 40px;">改变导航栏标题</button>
+        <p id="nativeValue">原生返回值：</p>
+    </div>
+</body>
+
+<script>
+    function getNativeReturnValue() {
+        window.webkit.messageHandler.callNativeHandler.postMessage()
+    }
+
+    function changeNavigationBarTitle() {
+        window.webkit.messageHandler.callNativeHandler.postMessage("js传过来的标题")
+    }
+</script>
+</html>

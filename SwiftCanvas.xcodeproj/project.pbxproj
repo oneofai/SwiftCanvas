@@ -3,17 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24A9C36532210A427F954618 /* Pods_SwiftCanvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B925112039119941270C79D /* Pods_SwiftCanvas.framework */; };
 		A43634AA246E8ECC00CD9510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43634A9246E8ECC00CD9510 /* AppDelegate.swift */; };
-		A43634AC246E8ECC00CD9510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43634AB246E8ECC00CD9510 /* SceneDelegate.swift */; };
 		A43634AE246E8ECC00CD9510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43634AD246E8ECC00CD9510 /* ViewController.swift */; };
 		A43634B1246E8ECC00CD9510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43634AF246E8ECC00CD9510 /* Main.storyboard */; };
 		A43634B3246E8ECF00CD9510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43634B2246E8ECF00CD9510 /* Assets.xcassets */; };
 		A43634B6246E8ECF00CD9510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43634B4246E8ECF00CD9510 /* LaunchScreen.storyboard */; };
 		A43634C1246E8ECF00CD9510 /* SwiftCanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43634C0246E8ECF00CD9510 /* SwiftCanvasUITests.swift */; };
+		A477FF8B24AEFC71003D423B /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477FF8A24AEFC71003D423B /* LRUCache.swift */; };
+		A477FF8D24AEFC98003D423B /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477FF8C24AEFC98003D423B /* Observer.swift */; };
+		A477FF8F24AEFCAC003D423B /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477FF8E24AEFCAC003D423B /* Observable.swift */; };
+		A477FF9124AEFCCC003D423B /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477FF9024AEFCCC003D423B /* LinkedList.swift */; };
+		A477FF9324AEFCF9003D423B /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477FF9224AEFCF9003D423B /* Namespace.swift */; };
+		A477FF9524AF0D41003D423B /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477FF9424AF0D41003D423B /* Label.swift */; };
+		CA6BEBF4A11FB2886ED0CB52 /* Pods_SwiftCanvas_SwiftCanvasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08319D47C5A888329F2FD14 /* Pods_SwiftCanvas_SwiftCanvasUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		267D7CCE0E9F5C47FA0758C5 /* Pods-SwiftCanvas-SwiftCanvasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCanvas-SwiftCanvasUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCanvas-SwiftCanvasUITests/Pods-SwiftCanvas-SwiftCanvasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B925112039119941270C79D /* Pods_SwiftCanvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCanvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD50DB0E05CF1EB291A9A6C /* Pods-SwiftCanvas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCanvas.release.xcconfig"; path = "Target Support Files/Pods-SwiftCanvas/Pods-SwiftCanvas.release.xcconfig"; sourceTree = "<group>"; };
+		904080CD11BCCA95A4A88B7B /* Pods-SwiftCanvas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCanvas.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCanvas/Pods-SwiftCanvas.debug.xcconfig"; sourceTree = "<group>"; };
+		90B262A9C97BFF299A5963D0 /* Pods-SwiftCanvas-SwiftCanvasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCanvas-SwiftCanvasUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftCanvas-SwiftCanvasUITests/Pods-SwiftCanvas-SwiftCanvasUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A43634A6246E8ECC00CD9510 /* SwiftCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43634A9246E8ECC00CD9510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A43634AB246E8ECC00CD9510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A43634AD246E8ECC00CD9510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A43634B0246E8ECC00CD9510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A43634B2246E8ECF00CD9510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +49,14 @@
 		A43634BC246E8ECF00CD9510 /* SwiftCanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43634C0246E8ECF00CD9510 /* SwiftCanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCanvasUITests.swift; sourceTree = "<group>"; };
 		A43634C2246E8ECF00CD9510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A477FF8A24AEFC71003D423B /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		A477FF8C24AEFC98003D423B /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		A477FF8E24AEFCAC003D423B /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		A477FF9024AEFCCC003D423B /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		A477FF9224AEFCF9003D423B /* Namespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namespace.swift; sourceTree = "<group>"; };
+		A477FF9424AF0D41003D423B /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		A4A7758C24A1F1ED001D6BAE /* SwiftCanvas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftCanvas.entitlements; sourceTree = "<group>"; };
+		C08319D47C5A888329F2FD14 /* Pods_SwiftCanvas_SwiftCanvasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCanvas_SwiftCanvasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A9C36532210A427F954618 /* Pods_SwiftCanvas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +72,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6BEBF4A11FB2886ED0CB52 /* Pods_SwiftCanvas_SwiftCanvasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A27790690C25C8B3F007B5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B925112039119941270C79D /* Pods_SwiftCanvas.framework */,
+				C08319D47C5A888329F2FD14 /* Pods_SwiftCanvas_SwiftCanvasUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A436349D246E8ECB00CD9510 = {
 			isa = PBXGroup;
 			children = (
 				A43634A8246E8ECC00CD9510 /* SwiftCanvas */,
 				A43634BF246E8ECF00CD9510 /* SwiftCanvasUITests */,
 				A43634A7246E8ECC00CD9510 /* Products */,
+				DCE76BF5ED6944168ADB3D2F /* Pods */,
+				2A27790690C25C8B3F007B5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +111,10 @@
 		A43634A8246E8ECC00CD9510 /* SwiftCanvas */ = {
 			isa = PBXGroup;
 			children = (
+				A4A7758C24A1F1ED001D6BAE /* SwiftCanvas.entitlements */,
 				A43634A9246E8ECC00CD9510 /* AppDelegate.swift */,
-				A43634AB246E8ECC00CD9510 /* SceneDelegate.swift */,
 				A43634AD246E8ECC00CD9510 /* ViewController.swift */,
+				A469140524BDBFD5009A12D5 /* Features */,
 				A43634AF246E8ECC00CD9510 /* Main.storyboard */,
 				A43634B2246E8ECF00CD9510 /* Assets.xcassets */,
 				A43634B4246E8ECF00CD9510 /* LaunchScreen.storyboard */,
@@ -99,6 +132,30 @@
 			path = SwiftCanvasUITests;
 			sourceTree = "<group>";
 		};
+		A469140524BDBFD5009A12D5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A477FF8C24AEFC98003D423B /* Observer.swift */,
+				A477FF8E24AEFCAC003D423B /* Observable.swift */,
+				A477FF8A24AEFC71003D423B /* LRUCache.swift */,
+				A477FF9024AEFCCC003D423B /* LinkedList.swift */,
+				A477FF9224AEFCF9003D423B /* Namespace.swift */,
+				A477FF9424AF0D41003D423B /* Label.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DCE76BF5ED6944168ADB3D2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				904080CD11BCCA95A4A88B7B /* Pods-SwiftCanvas.debug.xcconfig */,
+				5FD50DB0E05CF1EB291A9A6C /* Pods-SwiftCanvas.release.xcconfig */,
+				267D7CCE0E9F5C47FA0758C5 /* Pods-SwiftCanvas-SwiftCanvasUITests.debug.xcconfig */,
+				90B262A9C97BFF299A5963D0 /* Pods-SwiftCanvas-SwiftCanvasUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43634C5246E8ECF00CD9510 /* Build configuration list for PBXNativeTarget "SwiftCanvas" */;
 			buildPhases = (
+				76D7B74510227922387CE217 /* [CP] Check Pods Manifest.lock */,
 				A43634A2246E8ECC00CD9510 /* Sources */,
 				A43634A3246E8ECC00CD9510 /* Frameworks */,
 				A43634A4246E8ECC00CD9510 /* Resources */,
+				2FB60331CCC33DC382042FE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43634C8246E8ECF00CD9510 /* Build configuration list for PBXNativeTarget "SwiftCanvasUITests" */;
 			buildPhases = (
+				C5F96113B1B53D964C2E12DF /* [CP] Check Pods Manifest.lock */,
 				A43634B8246E8ECF00CD9510 /* Sources */,
 				A43634B9246E8ECF00CD9510 /* Frameworks */,
 				A43634BA246E8ECF00CD9510 /* Resources */,
+				BFAA02664BD793BBC020C2DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +210,7 @@
 				TargetAttributes = {
 					A43634A5246E8ECC00CD9510 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1150;
 					};
 					A43634BB246E8ECF00CD9510 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -195,14 +257,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FB60331CCC33DC382042FE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftCanvas/Pods-SwiftCanvas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftCanvas/Pods-SwiftCanvas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftCanvas/Pods-SwiftCanvas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76D7B74510227922387CE217 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCanvas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFAA02664BD793BBC020C2DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftCanvas-SwiftCanvasUITests/Pods-SwiftCanvas-SwiftCanvasUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftCanvas-SwiftCanvasUITests/Pods-SwiftCanvas-SwiftCanvasUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftCanvas-SwiftCanvasUITests/Pods-SwiftCanvas-SwiftCanvasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F96113B1B53D964C2E12DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCanvas-SwiftCanvasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A43634A2246E8ECC00CD9510 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A477FF9124AEFCCC003D423B /* LinkedList.swift in Sources */,
+				A477FF9324AEFCF9003D423B /* Namespace.swift in Sources */,
 				A43634AE246E8ECC00CD9510 /* ViewController.swift in Sources */,
+				A477FF8F24AEFCAC003D423B /* Observable.swift in Sources */,
+				A477FF8D24AEFC98003D423B /* Observer.swift in Sources */,
+				A477FF8B24AEFC71003D423B /* LRUCache.swift in Sources */,
+				A477FF9524AF0D41003D423B /* Label.swift in Sources */,
 				A43634AA246E8ECC00CD9510 /* AppDelegate.swift in Sources */,
-				A43634AC246E8ECC00CD9510 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -360,9 +508,14 @@
 		};
 		A43634C6246E8ECF00CD9510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904080CD11BCCA95A4A88B7B /* Pods-SwiftCanvas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftCanvas/SwiftCanvas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68L4D964JZ;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftCanvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,6 +523,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qingclass.SwiftCanvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,9 +531,14 @@
 		};
 		A43634C7246E8ECF00CD9510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD50DB0E05CF1EB291A9A6C /* Pods-SwiftCanvas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftCanvas/SwiftCanvas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68L4D964JZ;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftCanvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -394,8 +553,8 @@
 		};
 		A43634C9246E8ECF00CD9510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267D7CCE0E9F5C47FA0758C5 /* Pods-SwiftCanvas-SwiftCanvasUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftCanvasUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -413,8 +572,8 @@
 		};
 		A43634CA246E8ECF00CD9510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B262A9C97BFF299A5963D0 /* Pods-SwiftCanvas-SwiftCanvasUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftCanvasUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
